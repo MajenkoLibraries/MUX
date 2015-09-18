@@ -118,7 +118,7 @@ class MUX {
             uint8_t ea, uint8_t ec,
             uint8_t fa, uint8_t fc,
             uint8_t ga, uint8_t gc,
-            uint8_t dpa = NOT_A_PIN, uint8_t dpc = NOT_A_PIN);
+            uint8_t dpa = 255, uint8_t dpc = 255);
         /*! Set an individual digit to a specific value or character.
          * 
          *  The upper nibble of the data (*mode*) defines what the lower
