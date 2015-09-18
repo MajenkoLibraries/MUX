@@ -45,6 +45,15 @@ order you call the functions define the order in
 which the anodes are scanned and the order the display
 data is presented on the cathodes.
 
+By default both the cathodes and the anodes will
+be set HIGH when active (that is, they will *source*
+current).  If you need either of them to *sink* current
+(that is, be set LOW when active) you can invert the
+functionality of the pins:
+
+    MUX::invertAnode();
+    MUX::invertCathode();
+
 Throughout this document (and the library) any
 references to anodes and cathodes as parameters to
 a function refer to the *logical* anode or cathode
