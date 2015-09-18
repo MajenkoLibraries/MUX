@@ -446,3 +446,11 @@ void MUX::setValue(int v) {
         }
     }
 }
+
+void MUX::digitalWrite(int a, int c, int v) {
+    if (v) {
+        on(a, c);
+    } else {
+        off(a, c);
+    }
+}

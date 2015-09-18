@@ -1,0 +1,13 @@
+MUX	KEYWORD3
+addAnode    KEYWORD2
+addCathode  KEYWORD2
+on  KEYWORD2
+off KEYWORD2
+setRow  KEYWORD2
+invertAnode KEYWORD2
+invertCathode KEYWORD2
+start KEYWORD2
+stop KEYWORD2
+addDigit KEYWORD2
+setDigit KEYWORD2
+setValue KEYWORD2

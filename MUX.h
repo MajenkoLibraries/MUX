@@ -1,4 +1,4 @@
-/* \copyright
+/*
  * Copyright (c) 2015, Majenko Technologies
  * All rights reserved.
  * 
@@ -67,6 +67,8 @@ class MUX {
         static void on(int anode, int cathode);
         /*! Turn off an individual LED in the matrix */
         static void off(int anode, int cathode);
+        /*! Control an individual LED in the same way as an IO pin */
+        static void digitalWrite(int anode, int cathode, int val);
         /*! Set an entire row of data in the internal buffer
          * 
          *  This corresponds to the data for one anode's worth
