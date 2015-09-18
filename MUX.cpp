@@ -152,7 +152,7 @@ void MUX::display(int id, void *tptr) {
 }
 
 void MUX::start() {
-    _pid = createTask(display, 3, TASK_ENABLE, NULL);    
+    _pid = createTask(display, 2, TASK_ENABLE, NULL);    
 }
 
 void MUX::stop() {
